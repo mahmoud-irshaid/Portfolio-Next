@@ -2,7 +2,6 @@ import { StudioLogo } from '@components/atoms/Logo';
 
 import { codeInput } from '@sanity/code-input';
 import { visionTool } from '@sanity/vision';
-import { schemaTypes } from '@schemas';
 import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 import { vercelDeployTool } from 'sanity-plugin-vercel-deploy';
@@ -21,9 +20,6 @@ export default defineConfig({
 		{ title: 'Strike', value: 'strike-through' },
 	],
 	plugins: [deskTool(), visionTool(), codeInput(), vercelDeployTool()],
-	schema: {
-		types: schemaTypes,
-	},
 	studio: {
 		components: {
 			logo: StudioLogo,

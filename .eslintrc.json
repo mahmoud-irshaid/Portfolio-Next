@@ -12,10 +12,6 @@
 		"jsx-a11y",
 	],
 	"rules": {
-		"@typescript-eslint/no-non-null-assertion": 0,
-		"prettier/prettier": [
-			"error",
-			{}
-		],
+		"@typescript-eslint/no-non-null-assertion": 0
 	}
 }

@@ -22,7 +22,6 @@ module.exports = {
 		'^@lib/(.*)$',
 		'^@mockdata/(.*)$',
 		'^@queries/(.*)$',
-		'^@schemas/(.*)$',
 		'^@styles/(.*)$',
 		'^@types/(.*)$',
 		'<THIRD_PARTY_MODULES>',
