@@ -1,9 +1,7 @@
-import type { BlockContent, Company } from '@types';
-
 export interface Job {
 	jobTitle: string;
-	company: Company;
-	description: BlockContent[];
+	company: string;
+	description: string[];
 	fromDate: string;
 	toDate: string | null;
 	skills: string[];
