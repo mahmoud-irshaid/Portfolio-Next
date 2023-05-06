@@ -1,14 +1,12 @@
-import { ContentBlock } from '../ContentBlock';
-
-import type { BlockContent } from '@types';
 import classNames from 'classnames';
 import Image from 'next/image';
+import { ReactNode } from 'react';
 
 interface ServiceProps {
 	title: string;
 	subtitle: string;
-	slug: string;
-	body: BlockContent[];
+	slug?: string;
+	body: ReactNode;
 	image: string;
 	isReversed?: boolean;
 }
@@ -43,9 +41,7 @@ export const Service = ({
 					<p className="mt-4 text-xl font-semibold md:text-xl lg:text-2xl">
 						{subtitle}
 					</p>
-					<p className="mt-4 text-lg  md:text-xl lg:text-2xl">
-						{body}
-					</p>
+					<p className="mt-4 text-lg  md:text-xl lg:text-2xl">{body}</p>
 				</div>
 			</div>
 		</article>

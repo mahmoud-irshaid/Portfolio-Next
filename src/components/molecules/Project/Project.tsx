@@ -7,7 +7,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export interface ProjectProps extends ProjectType {
+	slug: string;
+	title: string;
+	skills: string[];
+	mainImage: string;
+	secondaryImages: string[];
 	index: number;
+	description: string;
 }
 
 const Project = ({
@@ -17,7 +23,7 @@ const Project = ({
 	mainImage,
 	secondaryImages,
 	index,
-	description
+	description,
 }: ProjectProps) => {
 	const isEven = index % 2 === 0;
 
@@ -58,7 +64,7 @@ const Project = ({
 					</div>
 				</Box>
 			</Link>
-		</article >
+		</article>
 	);
 };
 

@@ -1,4 +1,3 @@
-import { ContentBlock } from '@components/atoms/ContentBlock';
 import { Job } from '@components/molecules/Job';
 
 import type { Job as JobType } from '@types';
@@ -30,7 +29,11 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 							skills={skills}
 						>
 							<ul>
-								{description.map((item, i) => <li key={i} style={{ marginBottom: 8 }}>{item}</li>)}
+								{description.map((item: string, i: number) => (
+									<li key={i} style={{ marginBottom: 8 }}>
+										{item}
+									</li>
+								))}
 							</ul>
 						</Job>
 					</div>

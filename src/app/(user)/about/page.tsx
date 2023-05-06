@@ -12,41 +12,39 @@ export const metadata = {
 		'As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place.',
 };
 
-
-
 const AboutPage = async () => {
 	const jobs = [
 		{
-			company: "Agents on cloud",
-			jobTitle: "Mobile Developer",
-			fromDate: "Jun/2022",
-			toDate: "May/2023",
-			skills: ["TypeScript", "React", "Next.js", "Redux", "Rest APIs", "Jest"],
+			company: 'Agents on cloud',
+			jobTitle: 'Mobile Developer',
+			fromDate: 'Jun/2022',
+			toDate: 'May/2023',
+			skills: ['TypeScript', 'React', 'Next.js', 'Redux', 'Rest APIs', 'Jest'],
 			description: [
-				"● Developed front-end user interface using React Native and JavaScript for iOS and Android mobile applications.",
-				"● Collaborated with other developers to implement new features in a way that was consistent with existing codebase conventions.",
-				"● Used Expo as a framework for React Native.",
-				"● Resolved app defects by reviewing bug reports and tracking repeatable malfunctions within software titles.",
-				"● Participated in design discussions regarding application architecture, feature implementation, or any other relevant topic as required.",
-				"● Worked with Nx as a mono repo in managing and developing Expo applications within a workspace.",
-				"● Collaborated with designers on UI/UX design decisions and created mockups as needed.",
-			]
+				'● Developed front-end user interface using React Native and JavaScript for iOS and Android mobile applications.',
+				'● Collaborated with other developers to implement new features in a way that was consistent with existing codebase conventions.',
+				'● Used Expo as a framework for React Native.',
+				'● Resolved app defects by reviewing bug reports and tracking repeatable malfunctions within software titles.',
+				'● Participated in design discussions regarding application architecture, feature implementation, or any other relevant topic as required.',
+				'● Worked with Nx as a mono repo in managing and developing Expo applications within a workspace.',
+				'● Collaborated with designers on UI/UX design decisions and created mockups as needed.',
+			],
 		},
 	];
 
 	const education = [
 		{
-			course: "Computer Science",
-			date: "Sep 2022",
-			institution: "The Hashemite University",
-			courseContents: ["Bachelor: Computer Science"]
+			course: 'Computer Science',
+			date: 'Sep 2022',
+			institution: 'The Hashemite University',
+			courseContents: ['Bachelor: Computer Science'],
 		},
 		{
-			course: "Android 101 & 102",
-			date: "Jul 2020",
-			institution: "Be programmer",
-			courseContents: ["Android"]
-		}
+			course: 'Android 101 & 102',
+			date: 'Jul 2020',
+			institution: 'Be programmer',
+			courseContents: ['Android'],
+		},
 	];
 
 	return (
@@ -64,14 +62,15 @@ const AboutPage = async () => {
 					performance and accessibility.
 				</p>
 				<p className="my-4">
-					I am 23 years old and have been a web developer for as long
-					as I can think. The technologies I work with are JavaScript, HTML and
-					CSS with a focus on the frameworks React.js, Next.js, React Native, Expo, Node and
+					I am 23 years old and have been a web developer for as long as I can
+					think. The technologies I work with are JavaScript, HTML and CSS with
+					a focus on the frameworks React.js, Next.js, React Native, Expo, Node
 					Express. I use code not only to do my day-to-day job, but also to
 					solve everyday problems I come across.
 				</p>
 				<p>
-					When I am not writing code I love to spend time in Gaming and discovering latest technologies in various fields.
+					When I am not writing code I love to spend time in Gaming and
+					discovering latest technologies in various fields.
 				</p>
 
 				<h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>

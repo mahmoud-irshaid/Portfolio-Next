@@ -17,7 +17,12 @@ const SocialIcons = ({ profiles }: SocialIconsProps) => {
 					className="text-2xl opacity-70 transition hover:opacity-100"
 					key={name}
 				>
-					<a href={mail ? "mailto:mahmoudirshaid10@gmail.com" : url} target="_blank" rel="noopener noreferrer" title={name}>
+					<a
+						href={mail ? 'mailto:mahmoudirshaid10@gmail.com' : url}
+						target="_blank"
+						rel="noopener noreferrer"
+						title={name}
+					>
 						{icon}
 					</a>
 				</li>

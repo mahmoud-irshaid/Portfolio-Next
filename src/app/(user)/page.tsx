@@ -2,14 +2,13 @@ import { AnimatePage } from '@components/atoms/AnimatePage';
 import { Container } from '@components/atoms/Container';
 import { Service } from '@components/atoms/Service/Service';
 import { HeroSection } from '@components/molecules/HeroSection/HeroSection';
+
+import LogoExpo from '@root/public/assets/tools/expo-svgrepo-com.svg';
 import LogoFigma from '@root/public/assets/tools/figma.svg';
+import LogoJest from '@root/public/assets/tools/jest-snapshot-svgrepo-com.svg';
 import LogoNext from '@root/public/assets/tools/nextjs.svg';
 import LogoReact from '@root/public/assets/tools/react-svgrepo-com.svg';
-import LogoExpo from '@root/public/assets/tools/expo-svgrepo-com.svg';
 import LogoRedux from '@root/public/assets/tools/redux-svgrepo-com.svg';
-import LogoJest from '@root/public/assets/tools/jest-snapshot-svgrepo-com.svg';
-
-
 
 export const metadata = {
 	title: 'Software Engineer and Consultant Mahmoud Irshaid',
@@ -38,15 +37,16 @@ export const metadata = {
 };
 
 const HomePage = async () => {
-
 	const services = [
 		{
 			title: 'Website & App Development',
-			subtitle: 'Build web applications and websites that are well-designed, accessible, and performant.',
+			subtitle:
+				'Build web applications and websites that are well-designed, accessible, and performant.',
 			body: "Experienced Software engineer with a passion for web and mobile development, working with clients from startups to large enterprise businesses.I like to focus on accessibility, performance, and clean code.As a web and mobile development consultant, I help my clients create the best possible digital products for their businesses.I don't just develop websites and apps, I make them beautiful, fast and accessible to people with disabilities. My goal is to work with you to help you reach your full potential.",
-			image: 'https://cdn.sanity.io/images/yq5nnpfd/production/4003b5d63e0fe7d71b95891a263c0fa203580dc1-900x600.svg',
+			image:
+				'https://cdn.sanity.io/images/yq5nnpfd/production/4003b5d63e0fe7d71b95891a263c0fa203580dc1-900x600.svg',
 		},
-	]
+	];
 
 	return (
 		<AnimatePage>
